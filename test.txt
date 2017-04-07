@@ -3,3 +3,4 @@ write a new line.
 @PC815689327 MINGW32 /e/游戏/分 (master)
 $ git branch -b dev
 fix something on dev branch
+write a small plugin.
