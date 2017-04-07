@@ -4,3 +4,4 @@ git has a mutable index called storage.
 git tracks chanegs of files.
 <<<<<<< HEAD
 Creating a branch is quick & simple.
+new change.
