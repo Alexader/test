@@ -9,8 +9,9 @@ int StringBad::num_strings = 0;
 //constuct StringBad class from cstring
 StringBad::StringBad(const char *st)
 {
-	len = std::strlen(st);
-	str = new char[len+1];
+	len = std::strlen(st);//set size
+	str = new char[len+1];//allocate memory
+	std::strcpy(str,st);//set value
 	num_strings++;
 	cout<<num_strings<<":\""<<str<<"\"object created\n";
 }
